@@ -1,5 +1,5 @@
 *{
-  
+        @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lato:wght@300&family=Quicksand:wght@300&display=swap');
     max-width: 500px;
     max-height: 10%;
     text-align: center;
@@ -10,7 +10,8 @@
 p{
     color: rgb(0, 0, 0);
     opacity: 50%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Cardo';
+    font-size: 12px;
 }
 
 
@@ -32,17 +33,18 @@ footer{
 
 
 section button{
+    font-family: 'Cardo';
     background-color: #535E5C;
     display: block;
     width: 60vw;
     padding: 15px;
     font-size: 20px;
-    font-family: ;
+
 }
 
 
 @media(max-width:600px){
-    
+
     section button{
         border-radius: 15px;
         background-color: #535E5C;
