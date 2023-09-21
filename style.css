@@ -1,66 +1,152 @@
+/* CONFIGURAÇÕES GERAIS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Josefin+Sans:wght@100&family=Lato:wght@300&family=Quicksand:wght@300&display=swap');
+
 *{
-        @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lato:wght@300&family=Quicksand:wght@300&display=swap');
-    max-width: 500px;
-    max-height: 10%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Josefin Sans;
+}
+
+/* CORPO DA PAGINA */
+ 
+body{
+    background-color: black;
+    width: 800px;
+    height: 80vh;
+    margin: 0px auto;
+}
+
+
+
+/* IMAGEM LOGO  */
+
+#imagemm{
+   
+    opacity: 0;
+}
+
+#picture{
+    visibility: ;
+}
+
+
+.img-logo img{
+    width: 200px;
+}
+
+
+.img-logo{
+    margin: 10px;
     text-align: center;
-    margin: 5px auto;
+}
+
+.conatiner{
+
+}
+
+
+
+/* TEXTO  */
+
+.texto{
+    margin: 10px auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 20px;
+    color: #fff;
+}
+
+.texto h2{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* MENU LSITA */
+
+.container2 div{
+    margin: 45px auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container2 a {
+ color: #fff;
+ font-family: josefin sans-serif;
+}
+
+button{
+    background-color: black;
+    box-shadow:  4px 4px 11px #5D5D51;
+    height: 40px;
+    margin: 4px;
+}
+
+button a {
     text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+}
+
+
+/* FOOTER  */
+footer{
+    width: 800px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin: 15px auto;
+    text-align: center;
 }
 
 p{
-    color: rgb(0, 0, 0);
-    opacity: 50%;
-    font-family: 'Cardo';
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
+/* RESPONSIVO */
 
-a{
-    color: rgb(255, 255, 255);
-}
+@media (max-width: 600px)  {
+    /* CONFIGURAÇÕES DE TELA  */
 
-header img{
- width: 50vh;
-}
-
-footer{
-    position: absolute;
-    bottom:0;
-    left: 0;
-    right: 0;
-}
-
-
-section button{
-    font-family: 'Cardo';
-    background-color: #535E5C;
-    display: block;
-    width: 60vw;
-    padding: 15px;
-    font-size: 20px;
-
-}
-
-
-@media(max-width:600px){
-
-    section button{
-        border-radius: 15px;
-        background-color: #535E5C;
-        display: block;
-        width: 320px;
-        padding: 10px;
-        font-size: 20px;
-        margin-bottom: 15px;
+    body{
+        max-width: 500px;
+        text-align: center;
+        margin: 2px auto;
     }
-    
-    footer{
-        position: absolute;
-        margin-bottom: 0;
+
+    /* CONFIGURAÇÕES NO TEXTO  */
+
+    .texto{
+        width: 350px;
         
     }
 
+    button{
+        width: 350px;
+        margin:3px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
 
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:500px;
+        margin: 8px auto;
+    }
 }
-
