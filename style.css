@@ -22,16 +22,6 @@ body{
 
 /* IMAGEM LOGO  */
 
-#imagemm{
-   
-    opacity: 0;
-}
-
-#picture{
-    visibility: ;
-}
-
-
 .img-logo img{
     width: 200px;
 }
@@ -119,6 +109,10 @@ p{
 
 @media (max-width: 600px)  {
     /* CONFIGURAÇÕES DE TELA  */
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
     body{
         width: 350px;
@@ -139,6 +133,10 @@ p{
         margin: 0% auto;
     }
 
+    .img-logo img{
+        width: 180px;
+    }
+    
 
     button{
         width: 350px;
