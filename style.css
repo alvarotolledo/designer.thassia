@@ -12,10 +12,10 @@
 /* CORPO DA PAGINA */
 
 body {
-  /* background-image: url(img/IMG_7706.JPG);
+  background-image: url(img/IMG_7706.JPG);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0);
   width: 800px;
   height: 80vh;
@@ -127,7 +127,6 @@ p {
     background-image: url(img/IMG_7706.JPG);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
