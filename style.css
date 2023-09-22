@@ -149,10 +149,12 @@ p {
     line-height: 22px;
   }
 
+ 
+
   .container2 {
     display: flex;
     text-align: center;
-    margin: 0% auto;
+    margin: 0px auto;
   }
 
   .img-logo img {
@@ -164,6 +166,7 @@ p {
   }
 
   button {
+
     color: #5d5d51;
     width: 350px;
     margin: 3px auto;
@@ -175,12 +178,11 @@ p {
   }
 
   footer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 90%;
-    margin: 8px auto;
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 }
 
