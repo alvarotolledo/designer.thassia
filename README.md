@@ -17,7 +17,7 @@ O link do perfil foi um link que desenvolvi para a loja da Tazzi acessorios
 - Melhorar estilização do app
 
 ## Author
-Alvaro Toledo (follow me on [Twitter](http))
+Alvaro Toledo (follow me on [Instagram](https://www.instagram.com/alvaro.tolledo/))
 
 ## License
 ```
